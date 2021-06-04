@@ -76,7 +76,7 @@ a:hover {
 }
 
 .nes-container.game-card-wrapper {
-  width: 420px;
+  max-width: 420px;
   padding: 1rem 1.5rem;
   margin: 2rem;
 }
@@ -95,7 +95,7 @@ a:hover {
   margin-left: 1.5rem;
 }
 
-.game-info .nes-btn {
+.game-card .game-info .nes-btn {
   font-size: 0.8em;
 }
 
