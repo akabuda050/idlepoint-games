@@ -95,6 +95,10 @@ a:hover {
   margin-left: 1.5rem;
 }
 
+.game-info .nes-btn {
+  font-size: 0.8em;
+}
+
 .game-card > .game-info span {
   margin: 4px;
 }
