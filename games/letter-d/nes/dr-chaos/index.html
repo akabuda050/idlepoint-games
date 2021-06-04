@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" as="font">
+
+  <link rel="preload" href="https://unpkg.com/nes.css@2.3.0/css/nes.css" as="style" />
+  <link rel="preload" href="/assets/css/style.css" as="style" />
+
+  <link href="https://unpkg.com/nes.css@2.3.0/css/nes.css" rel="stylesheet" />
+  <link href="/assets/css/style.css" rel="stylesheet" />
+  <title>IdlePoint - NES Games: Dr. Chaos</title>
+
+
+  <script>
+    WebFontConfig = {
+      custom: {
+        families: [
+          'Press Start 2P',
+        ],
+        urls: [
+          'https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap',
+        ],
+      },
+    };
+
+    (function (d) {
+      var wf = d.createElement('script'), s = d.scripts[0];
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+      wf.async = true;
+      s.parentNode.insertBefore(wf, s);
+    })(document);
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="nes-container with-title is-centered main-header">
+      <h1 class="title main-title">Idle Point</h1>
+      <h3 id="welcome-text-paragraph">Life is a game. A good game is life.</h3>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <nav class="main-nav">
+        <div class="main-links">
+          <a class="nav-link nes-btn" href="/">Home</a>
+          <button class="nav-link nes-btn is-success dropdown-nav">
+            Games List
+            <nav class="sub-nav">
+              <div class="main-links">
+                <a class="nav-link nes-btn is-success" href="/games/numbers/nes">NES</a>
+                <a class="nav-link nes-btn is-warning" href="#">SNES</a>
+              </div>
+            </nav>
+          </button>
+            <a class="nav-link nes-btn" href="/about-us">About Us</a>
+            <a class="nav-link nes-btn" href="/contact-us">Contact Us</a>
+        </div>
+
+        <div class="second-links">
+          <a class="nav-link nes-btn" href="/terms-conditions">Terms & Conditions</a>
+          <a class="nav-link nes-btn" href="/privacy">Privacy Policy</a>
+        </div>
+      </nav>
+    </div>
+
+    <div class="nes-container with-title is-centered">
+      <p class="title">Dr. Chaos</p>
+      <p>
+        Dr. Chaos
+      </p>
+    </div>
+    
+    <div class="nes-container is-white footer">
+      <nav class="footer-links">
+        <a class="nes-btn" href="/terms-conditions">Terms & Conditions</a>
+        •
+        <a class="nes-btn" href="/privacy">Privacy Policy</a>
+        •
+        <a class="nes-btn" href="/contact-us">Contact Us</a>
+      </nav>
+      <p>
+        IdlePoint.com - 2021. Please be informed that graphics, multimedia and games are copyrighted to their
+        respective owners and authors.
+        IdlePoint.com is NOT maintained or sponsored by Nintendo or any other companies listed or included in any
+        content on the web site.
+      </p>
+    </div>
+    <button type="button" class="nes-btn is-warning scroll-btn"><span>&lt;</span></button>
+  </div>
+
+  <script src="/assets/js/menu.js"></script>
+  <script src="/assets/js/scroll.js"></script>
+  <script src="/assets/js/rating.js"></script>
+</body>
+
+</html>
