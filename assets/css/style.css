@@ -76,7 +76,7 @@ a:hover {
 }
 
 .nes-container.game-card-wrapper {
-  max-width: 420px;
+  width: 420px;
   padding: 0.5rem 1rem;
   margin: 1.5rem;
 }
@@ -342,4 +342,38 @@ a:hover {
 
 .nes-container.footer .nes-btn {
   margin: 4px 1em;
+}
+
+@media only screen and (max-width: 800px) {
+  #games-list-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+  }
+  #games-list-title > i {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .nes-container.game-card-wrapper {
+    width: 320px;
+  }
+  .game-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .game-card > .game-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+  }
+
+  .game-card .nes-btn {
+    margin-left: 0;
+  }
 }
