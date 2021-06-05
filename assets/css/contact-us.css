@@ -1,0 +1,24 @@
+.contact-us-form {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+}
+
+.contact-us-form .nes-field {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.contact-us-form .nes-textarea {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  min-height: 165px;
+
+}
+
+.contact-us-form .nes-btn {
+  align-self: flex-end;
+  margin-top: 11px;
+}
